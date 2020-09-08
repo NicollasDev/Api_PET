@@ -1,0 +1,12 @@
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\ApiPET.csprojAssemblyReference.cache
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\ApiPET.AssemblyInfoInputs.cache
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\ApiPET.AssemblyInfo.cs
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\ApiPET.csproj.CoreCompileInputs.cache
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\ApiPET.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\bin\Debug\netcoreapp3.1\ApiPET.exe
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\ApiPET.RazorTargetAssemblyInfo.cache
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\staticwebassets\ApiPET.StaticWebAssets.Manifest.cache
+C:\Users\NdL\Desktop\GERAL\Senai\ApiPET\ApiPET\obj\Debug\netcoreapp3.1\staticwebassets\ApiPET.StaticWebAssets.xml
