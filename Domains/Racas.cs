@@ -11,7 +11,7 @@ namespace ApiPET.Domains
 
         public string Descricao { get; set; }
 
-        public string IdTipoPet { get; set; }
+        public int IdTipoPet { get; set; }
 
     }
 }

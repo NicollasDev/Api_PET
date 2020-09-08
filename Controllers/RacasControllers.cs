@@ -8,8 +8,6 @@ namespace ApiPET.Controllers
     [ApiController]
     public class Racas : ControllerBase
     {
-
-        
         RacasRepository repo = new RacasRepository();
 
         

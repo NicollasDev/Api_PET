@@ -13,7 +13,7 @@ namespace ApiPET.Repositories
     {
 
         
-        TiposPetsContext conexao = new TiposPetsContext();
+        VeterinariaContext conexao = new VeterinariaContext();
 
       
         SqlCommand cmd = new SqlCommand();

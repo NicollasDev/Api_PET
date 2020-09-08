@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApiPET.Repositories;
 using Microsoft.AspNetCore.Mvc;
-
+using ApiPET.Domains;
+using ApiPET.Context;
 
 namespace ApiPET.Controllers
 {
@@ -11,7 +13,7 @@ namespace ApiPET.Controllers
     [ApiController]
     public class TiposPets : ControllerBase
     {
-
+       
         TiposPetsRepository repo = new TiposPetsRepository();
 
 

@@ -13,7 +13,7 @@ namespace ApiPET.Repositories
     {
 
         // a classe de conexao do banco
-        RacasContext conexao = new RacasContext();
+        VeterinariaContext conexao = new VeterinariaContext();
 
         // objeto que poderá receber e executar os comandos do banco 
         SqlCommand cmd = new SqlCommand();
@@ -28,7 +28,6 @@ namespace ApiPET.Repositories
                 "IdRaca = " + r.IdRaca + ", " +
                 "Descricao = @Descricao, " +
                 "IdTipoPet = @IdTipoPet WHERE IdRaca = @id ";
-            cmd.Parameters.AddWithValue("@IdRaca", r.IdRaca);
             cmd.Parameters.AddWithValue("@Descricao", r.Descricao);
             cmd.Parameters.AddWithValue("@IdTipoPet", r.IdTipoPet);
             cmd.Parameters.AddWithValue("@id", id);
@@ -60,7 +59,7 @@ namespace ApiPET.Repositories
             {
                 r.IdRaca = Convert.ToInt32(dados.GetValue(0));
                 r.Descricao = dados.GetValue(1).ToString();
-                r.IdTipoPet = dados.GetValue(2).ToString();
+                r.IdTipoPet = Convert.ToInt32(dados.GetValue(2));
                 
 
             }
@@ -126,7 +125,7 @@ namespace ApiPET.Repositories
                     {
                         IdRaca = Convert.ToInt32(dados.GetValue(0)),
                         Descricao = dados.GetValue(1).ToString(),
-                        IdTipoPet = dados.GetValue(2).ToString()
+                        IdTipoPet = Convert.ToInt32(dados.GetValue(2)),
 
                     }
             ); 
